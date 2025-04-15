@@ -212,4 +212,3 @@ def evaluate_by_pkl(single_or_merge, name_list, LLM):
 
     for r in res:
         print(r)
-    return 
