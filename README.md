@@ -10,6 +10,7 @@ Install the required dependencies:
 
 ```bash
 pip install -r requirement.txt
+```
 
 ## 🧠 ML_trained_models
 This directory contains machine learning models trained using the o3_instruction dataset as input features.
@@ -35,7 +36,7 @@ Loads trained models or prediction results and performs evaluation.
 You can either directly evaluate pre-trained models or train new ones and then evaluate.
 Both approaches will reproduce the results reported in the dissertation.
 
-📂 data
+## 📂 data
 new_processed_time-sorted_data.csv: The original dataset used in the dissertation.
 
 o3_instruction.csv: Instruction dataset generated using the o3-mini model.
